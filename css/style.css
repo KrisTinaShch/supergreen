@@ -279,12 +279,13 @@ img {
     padding: 5px;
 }
 
-.supergreen .benefits li::marker {
+.supergreen .benefits li::before {
+    
+    content: "•";
+    padding-right: 10px;
     color: var(--super-green);
     font-size: 150%;
-    content: "•";
 }
-
 .orange-cta {
     display: block;
     background-color: #FF6E27;
